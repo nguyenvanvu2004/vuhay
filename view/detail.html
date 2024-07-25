@@ -1,0 +1,38 @@
+
+<div class="row">
+    <h2>{{title}}</h2>
+  </div>
+  
+  <form ng-submit="addBook()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Mã sách </label>
+      <input type="text" class="form-control" id="exampleInputEmail1" ng-model="book.maSach" disabled >
+      <div id="emailHelp" class="form-text text-danger  " ng-if="checkFrom.maSach">Vui lòng nhập vào trường </div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Tên sách </label>
+      <input type="text" class="form-control" id="exampleInputEmail1" ng-model="book.tenSach" disabled>
+      <div id="emailHelp" class="form-text text-danger" ng-if="checkFrom.tenSach">Vui lòng nhập vào trường </div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Loại sách</label>
+      <select name="" id="" class=" form-select" ng-model="book.loaiSach" disabled>
+        <option value="0">None</option>
+        <option value="1">Khoa học </option>
+        <option value="2">Chính trị</option>
+        <option value="3">Tin tức</option>
+      </select>
+      <div id="emailHelp" class="form-text text-danger" ng-if="checkFrom.loaiSach">Vui lòng nhập vào trường </div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Giá sách </label>
+      <input type="number" class="form-control" id="exampleInputEmail1" ng-model="book.giaSach" disabled>
+      <div id="emailHelp" class="form-text text-danger" ng-if="checkFrom.giaSach">Vui lòng nhập vào trường và tiền >10000 Đ </div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Số lượng </label>
+      <input type="number" class="form-control" id="exampleInputEmail1" ng-model="book.soLuong" disabled>
+      <div id="emailHelp" class="form-text text-danger" ng-if="checkFrom.soLuong">Vui lòng nhập vào trường </div>
+    </div>
+  
+  </form>

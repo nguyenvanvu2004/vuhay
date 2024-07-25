@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "maSach": "ph123",
+      "tenSach": "anh iu 5345364646463634636466",
+      "loaiSach": "1",
+      "giaSach": 12113,
+      "soLuong": 9,
+      "id": "1"
+    },
+    {
+      "maSach": "ph232000",
+      "tenSach": "Sách 12345",
+      "loaiSach": "2",
+      "giaSach": 110000,
+      "soLuong": 27,
+      "id": "3"
+    },
+    {
+      "maSach": "phfasffew",
+      "tenSach": "cfregre12324343546",
+      "loaiSach": "2",
+      "giaSach": 90000,
+      "soLuong": 12,
+      "id": "0e4a"
+    },
+    {
+      "id": "1010",
+      "maSach": "phfasffew",
+      "tenSach": "cuộc chiến hoàng gia",
+      "loaiSach": "1",
+      "giaSach": 11111111,
+      "soLuong": 2
+    },
+    {
+      "maSach": "phfasffew",
+      "tenSach": "cuộc chiến hoàng gia1232435",
+      "loaiSach": "1",
+      "giaSach": 12123,
+      "soLuong": 2,
+      "id": "b8e3"
+    },
+    {
+      "id": "7b2f",
+      "maSach": "ph11111111e ewtv",
+      "tenSach": "etvert54y5ẻv3t4",
+      "loaiSach": "0",
+      "giaSach": 1000000,
+      "soLuong": 12
+    },
+    {
+      "maSach": "ph40002",
+      "tenSach": "đây là đâu và tôi là ai  tôi cúng không biết",
+      "loaiSach": "3",
+      "giaSach": 10001,
+      "soLuong": 2,
+      "id": "1c1f"
+    },
+    {
+      "id": "d51e",
+      "maSach": "tr12324",
+      "tenSach": "dây là một trong",
+      "loaiSach": "3",
+      "giaSach": 12320,
+      "soLuong": 2
+    },
+    {
+      "id": "29a5",
+      "maSach": "hhh",
+      "tenSach": "hay qua shaja",
+      "loaiSach": "1",
+      "giaSach": 40000,
+      "soLuong": 5
+    }
+  ]
+}
